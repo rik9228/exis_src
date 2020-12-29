@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <title>EXIS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=PT+Serif:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel=“stylesheet” href=“https://use.typekit.net/mec3hjw.css”>
+  <!-- プロジェクト共通スタイル -->
+  <link rel="stylesheet" href="https://ash-creator.com/project_slash/coding_global/global.css" />
+
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<!--
+
+制作チーム：EXIS
+製作者：森下陸、冨原広美
+
+-->
+
+<!-- 確認事項②　写真、アイコンはコーディング完了後にあしざわさんに依頼し、差し替え予定（Adobe Stockなど）。 -->
+
+<body>
+  <div class="CONTAINER">
+
+    <div class="scroll">
+      <p class="scroll--title FONTSIZE--S2">scroll down</p>
+      <div class="scroll--bar"></div>
+    </div>
+    <!-- 森下 -->
+    <header class="header">
+      <!-- ↓この中にコードを記述↓ -->
+      <div class="header__wrapper">
+        <a class="header__homeLink" href="#mainVisual"><img src="svg/header_logo.svg" alt="トップへ戻る"
+            class="header__homeLogo" /></a>
+        <div class="header__hamburger">
+          <span class="header__hamburger--deco"></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__listFrame">
+            <li><a href="#mainVisual" class="menu__link--deco"></a></li>
+            <li class="menu__listItem"><a href="#introduction" class="menu__link FONTSIZE--M">INTRODUCTION</a></li>
+            <li class="menu__listItem"><a href="#mission" class="menu__link FONTSIZE--M">MISSION</a></li>
+            <li class="menu__listItem"><a href="#service" class="menu__link FONTSIZE--M">SERVICE</a></li>
+            <li class="menu__listItem"><a href="#benefit" class="menu__link FONTSIZE--M">BENEFIT</a></li>
+            <li class="menu__listItem"><a href="#message" class="menu__link FONTSIZE--M">MESSAGE</a></li>
+            <li class="menu__listItem"><a href="#entryFlow" class="menu__link FONTSIZE--M">HOW TO ENTRY</a></li>
+            <li><a href="#entryForm" class="BUTTON menu__listItem--deco2"></a></li>
+          </ul>
+        </nav>
+        <!-- ↑この中にコードを記述↑ -->
+      </div>
+    </header>
+
+    <!-- 冨原 -->
+    <section class="SECTION mainVisual" id="mainVisual">
+      <div class="SECTION__WRAPPER">
+        <h1 class="mainVisual__mainTitle"><img src="svg/logo.svg" alt="年商一億円を目指す経営者のためのプラットフォーム「EXIS 」"
+            class="mainVisual__homeLogo" /></h1>
+        <p class="mainVisual__mainCopy FONTSIZE--XL">年商1億を<br class="PC_noBreak" />超えて<br class="PC_noBreak" />次のステージへ
+        </p>
+        <p class="mainVisual__subCopy FONTSIZE--L3">実戦での学びを通じて<br />事業を成長させ続ける経営者へ</p>
+        <a href="#entryForm" class="BUTTON"></a>
+      </div>
+    </section>
+
+    <!-- 森下 -->
+    <section class="SECTION introduction" id="introduction">
+      <div class="SECTION__WRAPPER SECTION__WRAPPER--NonSP">
+        <div class="introduction__wrapper">
+          <div class="introduction__title">
+            <h2 class="TITLE--primary FONTSIZE--L2">多くの経営者が<br class="PC_noBreak" />到達できない<br
+                class="PC_noBreak" />年商１億円の領域</h2>
+            <div class="introduction__box--first">
+              <div class="introduction__image"></div>
+              <p class="introduction__description FONTSIZE--S2">
+                「年商1億円」、それは経営における一つの到達点。企業成長を目指す中で乗り越えるべき壁。<br /><br />「1億円の壁」を突破する経営者には、事業の維持だけに止まらず様々な能力が必要ですが、多くの経営者が以下に挙げる「７つの課題」をクリアすることができません。
+              </p>
+            </div>
+          </div>
+
+          <div class="introduction__box--second">
+            <h3 class="TITLE--secondary FONTSIZE--L">7つの課題</h3>
+            <div class="introduction__partition">
+
+
+              <!-- スライダー部分ここから記入をお願いします -->
+              <ul class="introduction__listFrame introduction__slider">
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon01.svg"
+                      alt="グラフのアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">事業モデルの拡大<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon02.svg"
+                      alt="リストのアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">ノウハウの蓄積<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon03.svg"
+                      alt="電球イラストのアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">新規事業の立上げ<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon04.svg"
+                      alt="人のイラストのアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">人材の育成<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon05.svg"
+                      alt="歯車のアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">業務の仕組み化<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon06.svg"
+                      alt="お金の袋のアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">収益の安定化<br />ができない</p>
+                </li>
+                <li class="introduction__listItem FONTSIZE--S4">
+                  <div class="introduction__icon"><img class="introduction__iconSvg" src="svg/introduction_icon07.svg"
+                      alt="ゴールの旗がついた山のアイコン" /></div>
+                  <p class="introduction__text FONTSIZE--S4">企業成長<br />ができない</p>
+                </li>
+              </ul>
+              <!-- スライダー部分ここまで -->
+
+              <div class="introduction__InWrapper">
+                <p class="introduction__mainCopy FONTSIZE--L">経営者の成長と<br />企業の課題解決を促進する</p>
+                <img class="introduction__description--logo" src="svg/logo.svg" alt="年商一億円を目指す経営者のためのプラットフォーム「EXIS 」">
+                <p class="introduction__description--deco FONTSIZE--S3">年商1億円を目指す経営者のための<br />総合コンサルティングサービス</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 森下 -->
+    <input type="checkbox" class="mission__checkbox" id="open" />
+    <section class="SECTION mission" id="mission">
+      <div class="SECTION__WRAPPER">
+        <h2 class="TITLE--primary FONTSIZE--L2">EXISの社会的意義</h2>
+        <div class="mission__wrapper">
+          <div class="mission__box--first">
+            <h3 class="mission__mainCopy FONTSIZE--M3">年商1億円の経営者を輩出し続ける</h3>
+            <h3 class="mission__mainCopy FONTSIZE--M3">社会問題を事業によって解決する<br class="SP_noBreak" />経営者を育成する</h3>
+            <!-- <div class="mission__image"></div> -->
+          </div>
+          <div class="mission__box--second">
+            <p class="mission__description FONTSIZE--S2">
+              社会課題を解決し、企業を成長させる人材を輩出し続けること。それこそがEXISの存在意義です。明確な戦略と徹底的なサポートで社会を牽引する経営者を育てます。<br />
+              <br />
+              現在、日本企業の99.7%は中小零細企業です。その半数ほどは共通の課題を抱え、年商1億円を超えない企業が多数あります。 <br />
+              <br />
+              年商1億円の区切りは「持続可能な経営ライン」と呼ばれます。超えない企業は倒産リスクが高く、事業を安定させるためにはこのラインを超えることが重要です。 <br />
+              <br />
+              EXISは、素質と意欲の高い経営者を選び抜き、年商1億円を達成する中で社会に貢献する次世代の優れた経営者を育成します。
+            </p>
+            <label class="mission__label FONTSIZE--M" for="open">read more</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冨原 -->
+    <section class="SECTION service" id="service">
+      <div class="SECTION__WRAPPER">
+        <h2 class="TITLE--primary FONTSIZE--L2">EXISのサービス</h2>
+        <p class="service__description FONTSIZE--S2">
+          「EXIS」は年商1億超を目指す経営者のためのプラットフォーム。<br /><br
+            class="PC_noBreak" />実践を通じて経営力を磨き上げる経営者コミュニティと、企業課題解決のために必要な以下のサービスを提供しています。
+        </p>
+        <div class="service__wrapper">
+          <div class="service__box">
+            <h4 class="service__title service__title--consultant FONTSIZE--M6">事業モデル<br />コンサルティング</h4>
+            <p class="service__text FONTSIZE--S2">事業規模の大部分を左右するのがビジネスモデル。年商1億円を目指すビジネスモデルを策定するため、協議と意思決定を行います。</p>
+          </div>
+          <div class="service__box service__box--reverse">
+            <h4 class="service__title service__title--movie FONTSIZE--M6">動画販促<br />コンサルティング</h4>
+            <p class="service__text FONTSIZE--S2">動画を用いて世の中へサービスの普及を行います。動画の企画、制作全般と、動画を用いた普及戦略まで、販促のすべてをサポートします。</p>
+          </div>
+          <div class="service__box">
+            <h4 class="service__title service__title--web FONTSIZE--M6">Web制作<br />コンサルティング</h4>
+            <p class="service__text FONTSIZE--S2">
+              Webを使用し企業やサービスの周知・集客・拡販力を高めます。企画～制作のトータルサポートはもちろん、SNSを使用したマーケティングやブランディング強化もサポートいたします。
+            </p>
+          </div>
+          <div class="service__box service__box--reverse">
+            <h4 class="service__title service__title--membersOnly FONTSIZE--M6">経営戦略動画<br />配信サービス</h4>
+            <p class="service__text FONTSIZE--S2">会員限定サイトから経営の基礎戦略資料の閲覧が可能です。事業における判断の軸になる経営戦略を学ぶことができます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冨原 -->
+    <section class="SECTION benefit" id="benefit">
+      <div class="SECTION__WRAPPER">
+        <h2 class="TITLE--primary FONTSIZE--L2">EXISで得られるもの</h2>
+        <div class="benefit__wrapper">
+          <div class="benefit__box">
+            <h4 class="benefit__title benefit__title--01 FONTSIZE--M5">年商1億円超</h4>
+            <p class="benefit__text benefit__text--01 FONTSIZE--S2">企業を存続させ、投資と拡大戦略に振り分けるに足る「収益」</p>
+          </div>
+          <div class="benefit__box">
+            <h4 class="benefit__title benefit__title--02 FONTSIZE--M5">明確な事業モデル</h4>
+            <p class="benefit__text benefit__text--02 FONTSIZE--S2">年商1億円を見据えた、企業の資産となる「ビジネスモデル」</p>
+          </div>
+          <div class="benefit__box">
+            <h4 class="benefit__title benefit__title--03 FONTSIZE--M5">持続的な企業成長<br />のための経営力</h4>
+            <p class="benefit__text benefit__text--03 FONTSIZE--S2">ぶれない経営軸と世の中への影響力を作る「戦略とツール」</p>
+          </div>
+          <div class="benefit__box">
+            <h4 class="benefit__title benefit__title--04 FONTSIZE--M5">未来を牽引する<br />経営者との繋がり</h4>
+            <p class="benefit__text benefit__text--04 FONTSIZE--S2">年商1億円を目指し、課題を共に乗り越える「仲間と相談相手」</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 冨原 -->
+    <section class="SECTION message" id="message">
+      <div class="SECTION__WRAPPER">
+        <h2 class="TITLE--primary FONTSIZE--L2">代表メッセージ</h2>
+        <div class="message__wrapper">
+          <p class="message__position FONTSIZE--S3">EXIS理事長&nbsp; <br class="PC_noBreak" /><span
+              class="message__name FONTSIZE--M4">佐瀬遼介</span></p>
+          <p class="message__text FONTSIZE--S2">EXISは「年商1億円を目指す社長限定のプロジェクト」です。<br>
+            国内には400万以上の企業が存在する中、約1万社と言われる大手企業を除く99%以上の企業の悩みは共通項が非常に多いと言われています。<br>
+            <br>
+            そもそも「やりたい経営」と「結果が出る経営」は大きく異なり、年商1億円というラインは感覚経営や無戦略では中々到達できないのが現状です。「知らない」「学ぼうとしない」「試したい」この3拍子揃った経営で私が沢山の失敗をしたからこそ、EXISでは「論理的に勝てる経営」しかしません。<br>
+            <br>
+            自社だけで５０事業以上設立し、企業データを５００社以上、個人事業データを２０００事業以上見ている弊社だからこそ「どの経営が勝てるのか」を理解できています。年商1億円に到達させることで「持続可能な社会貢献」を実現させ、社会から認められる経営者を輩出するのがEXISの目的です。<br>
+            <br>
+            EXISを通して大きなビジョンに向けた第一歩を一緒に実現していきましょう。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="SECTION sponsor" id="sponsor">
+            <div class="SECTION__WRAPPER">
+                <h2 class="TITLE--primary FONTSIZE--L2">運営会社・スポンサー</h2>
+                <table class="sponsor__table">
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">理事長</td>
+                        <td class="sponsor__name FONTSIZE--S">株式会社EWC&nbsp;取締役副社長&nbsp;<br class="PC_noBreak">佐瀬遼介</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">理事</td>
+                        <td class="sponsor__name FONTSIZE--S">株式会社KANJIN&nbsp;代表取締役社&nbsp;<br class="PC_noBreak">菊地雅克</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">理事</td>
+                        <td class="sponsor__name FONTSIZE--S">株式会社ASONE&nbsp;代表取締役&nbsp;<br class="PC_noBreak">石澤怜平</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">執行役員</td>
+                        <td class="sponsor__name FONTSIZE--S">株式会社FreeAL&nbsp;代表取締役兼CEO<span class="sponsor__space">&nbsp;</span><br class="PC_noBreak">矢田貝覚</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">データ<br class="PC_noBreak">サイエンティスト</td>
+                        <td class="sponsor__name FONTSIZE--S">大谷</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">顧問弁護士</td>
+                        <td class="sponsor__name FONTSIZE--S">ローランダー法律事務所&nbsp;弁護士&nbsp;<br class="PC_noBreak">青木豊</td>
+                    </tr>
+                    <tr class="sponsor__tableRow">
+                        <td class="sponsor__position FONTSIZE--S2">顧問会計・税理</td>
+                        <td class="sponsor__name FONTSIZE--S">税理士法人Bricks&UK&nbsp;<br class="PC_noBreak">コンサルタント&nbsp;<br class="PC_noBreak">岡林佑美</td>
+                    </tr>
+                </table>
+                <p class="sponsor__companies FONTSIZE--S2">協力企業・スポンサー</p>
+                <div class="sponsor__logoBox">
+                    <img class="sponsor__logo" src="img/sponsor_mova_logo.png" alt="MOVA ロゴ">
+                    <img class="sponsor__logo" src="img/sponsor_exciteexcite_logo.png" alt="EXCITE EXCITE ロゴ">
+                </div>
+            </div>
+        </section> -->
+
+    <!-- 森下、冨原 -->
+    <section class="SECTION entryFlow" id="entryFlow">
+      <div class="SECTION__WRAPPER">
+        <h2 class="TITLE--primary FONTSIZE--L2">入会方法</h2>
+        <div class="entryFlow__wrapper">
+          <ol class="entryFlow__listFrame FONTSIZE--M1">
+            <li class="entryFlow__listItem">エージェントからのオファー</li>
+            <li class="entryFlow__listItem">売上証明書類提出</li>
+            <li class="entryFlow__listItem">担当役員との面談</li>
+            <li class="entryFlow__listItem">各プロジェクトへ参画開始</li>
+          </ol>
+          <p class="entryFlow__description FONTSIZE--S5">審査により選ばれた方のみのクローズドなコミュニティであるため、特別なサポートを受けることが可能。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="SECTION entryForm" id="entryForm">
+      <div class="SECTION__WRAPPER">
+        <!-- ↓この中にコードを記述↓ -->
+        <h2 class="TITLE--primary FONTSIZE--L2">エントリーはこちら</h2>
+        <!-- ↑この中にコードを記述↑ -->
+      </div>
+    </section>
+
+    <!-- 冨原 -->
+    <footer class="footer">
+      <div class="SECTION__WRAPPER">
+        <small class="footer__copyRight FONTSIZE--S1">&#169; 2020 EXIS</small>
+        <a href="#mainVisual" class="footer__toTop--link FONTSIZE--S">back to top</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
